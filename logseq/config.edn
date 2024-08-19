@@ -414,4 +414,5 @@
  :file/name-format :triple-lowbar
  :graph/settings {:journal? true
  :excluded-pages? true
- :orphan-pages? true}}
+ :orphan-pages? true}
+ :publishing/all-pages-public? true}
