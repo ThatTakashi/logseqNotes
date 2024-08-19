@@ -1,0 +1,34 @@
+## Class recap:
+- ## Class Notes:
+	- ### Analogue
+		- Analogue data is in a continuous form
+		- It varies smoothly
+		- Electronically, an analogue signal is a voltage that is continuously going up and down
+		- Analogue signals preserve all the information with no loss. It is, however, difficult and expensive to get a computer to work with analogue data, as well as re-create original data once affect by random noise
+	- ### Digital
+		- A digital signal is a set of binary numbers that represent
+	- ### Hub
+		- Provide easy access to network cables (has room for expansion, 4, 8, 16, … ports)
+		- Can act as a repeater (repeat the signal to extend the distance limitation of the cable)
+		- **Types of Hub**
+			- Passive Hub
+				- A passive hub serves as a conduit for the data, enabling it to go from one device to another
+			- Intelligence Hub
+				- Include standard features the enables an administrator to monitor the traffic passing through the hub
+			- Switching Hub
+				- Reads the destination address of each packet and then forwards the packet to the correct port
+	- ### Repeater
+		- Are used to extend the max distance of a cable or signal
+		- Repeaters overcome the attenuation cause by free-space electromagnetic-field divergence or cable loss
+		- Remove the unwanted noise in an incoming signal
+		- Repeaters can be used for
+			- Wireless communications
+			- Satellite communications
+			- Celular telephone
+	- ### Switch
+		- Operate at the data link layer
+		- Connect two or more computers or network segments the use the same data link and network protocols
+		- They may connect the same or different cabling
+		- Can have 4, 8, 12, 16, 20, 24, 26, 36, 96…. ports
+		- Allows you to control who has access
+		- Lets you monitor usage

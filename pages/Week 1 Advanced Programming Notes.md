@@ -1,0 +1,11 @@
+## Class Recap
+-
+- ## Class Notes
+-
+- ## Lab:
+	- [[Lab1_Ex1 Hello, World!]]
+	- [[Lab1_Ex2 Hello, {Name}!]]
+	- [[Lab1_Ex3 Name in the Middle]]
+	- [[Lab1_Ex4 Fancy Name]]
+	- [[Lab1_Ex5 Face]]
+	- [[Lab1_Ex6 BMI Calculator]]
