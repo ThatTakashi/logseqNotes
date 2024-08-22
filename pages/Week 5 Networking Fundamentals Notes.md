@@ -1,0 +1,99 @@
+## Network Topologies
+	- Arrangements or physical layout of computers, cables and other components on the network
+	- Computer networks can be categorised according to their shape or topology
+	- Each terminal in a network is called a node
+	- A central computer controls the network
+		- It is known as the host computer
+	- Topology of a network is the arrangement of the nodes and the ways they are interconnected
+	- **Data can be transmitted around the subnet as below**
+		- ### Point-to-point Transmission
+			- The data passes through each device in the network
+			- If two devices wish to communicate, they must do it indirectly
+			- Any intervening devices each devices must have the facility to store the entire message and forward it when the outer channel is free
+		- ### Broadcast Channel
+			- All devices in the network share a common communication channel
+			- Any message sent by a device is received by all devices
+			- Message contains the address of the device intended to receive it, so that the other devices can ignore it
+	- ### Types of Topologies
+		- **Star Topology**
+			- Star shape
+			- Very common topology for many networks
+			- Used with a switch or hub
+			- Used in LAN
+			- Multiple network ports or Wi-Fi clients
+			- Offers centralised resources and management
+			- **Pros**
+				- Fast performance with few nodes and low network traffic
+				- Hub/switch can be upgraded easily
+				- Easy to troubleshoot
+				- Easy to setup and modify
+				- Only the node is affected which has failed, rest of the nodes can work smoothly
+			- **Cons**
+				- Cost of installation is high
+				- Expensive to use
+				- If the hub fails, the whole network goes down because all the nodes depend on the hub/switch
+				- Performance is based on the speed of the hub/switch
+		- **Ring Topology**
+			- A number of repeaters are used for ring topology with a large number of nodes
+			- Repeaters allow the prevention of data loss when sending data across the network
+			- The transmission is unidirectional, but can be made bidirectional by having 2 connections between each network node.
+				- Called a dual-ring topology
+			- **Pros**
+				- Transmitting network is not affected by high traffic or by adding more nodes
+				- Cheap to install and expand
+			- **Cons**
+				- Troubleshooting is difficult in ring topology
+				- Adding or deleting the computers disturbs the network activity
+		- **Bus Topology**
+			- A network type in which every computer and network device is connected to a single cable
+			- It transmits data only in one direction
+			- Every device is connected to a single cable
+			- **Pros**
+				- It is cost effective
+				- Least amount of cable required for the network
+				- Used in small networks
+				- It is easy to understand
+			- **Cons**
+				- Cables fails then whole network fails
+				- If network traffic is heavy or nodes are more the performance of the network
+				  decreases
+				- Cable has a limited length
+				- It is slower than the ring topology
+		- Mesh/Full Mesh Topology
+			- **Mesh Topology**
+				- Each station is connected to the nearest stations
+				- Quite expensive because each addition of a station
+				- Might be more than one path
+				- Useful for systems that need half or full connectivity
+				- Setup an ad hoc mode to become an access point
+			- **Full Mesh Topology**
+				- When all nodes must be connected and setup their own ad hoc mode
+				- Can communicate all around but wiring is expensive
+			- **Pros**
+				- Each connection can carry its own data load
+				- It is robust
+				- Fault is recognized easily
+				- Provides security and privacy
+			- **Cons**
+				- Installation and configuration is difficult
+				- Cabling cost is higher
+				- Bulk wiring is required
+		- Hybrid Topologies
+			- Combinations of two or more different topologies
+			- WANs sometimes have hybrid topologies because they connect a variety of LAN topologies
+		- Tree Topology
+			- It has a root node and all other nodes are connected to it forming a hierachy
+			- It is also called a hierarchical topology
+			- It should at least have three levels to the hierachy
+			- Ideals if workstations are located in groups
+			- **Pros**
+				- Extension of bus and star topologies
+				- Expansion of nodes is possible and easy
+				- Easily managed and maintained
+				- Error detection is easily done
+			- **Cons**
+				- Heavily cabled
+				- Costly
+				- Maintenance is more difficult the more nodes you have
+				- If the central hub fails, the network fails
+		-
