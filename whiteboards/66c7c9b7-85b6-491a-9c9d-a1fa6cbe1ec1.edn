@@ -1,0 +1,122 @@
+{:blocks (
+{:block/created-at 1724369354324
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "66c28f8b-df08-4f43-a803-3a7bd1a6f135"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 155.375]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "4f29f250-60de-11ef-8955-dfaf3c44c0ad"
+:noFill false
+:point [144 160]
+:parentId "66c7c9b7-85b6-491a-9c9d-a1fa6cbe1ec1"
+:collapsedHeight 0
+:nonce 1724369339976}}
+:block/updated-at 1724369354324} 
+{:block/created-at 1724369369071
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:borderRadius 2
+:index 1
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [304 224]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "Test"
+:id "5d7416b0-60de-11ef-8955-dfaf3c44c0ad"
+:fontWeight 400
+:noFill false
+:point [776 344]
+:fontSize 20
+:parentId "66c7c9b7-85b6-491a-9c9d-a1fa6cbe1ec1"
+:nonce 1724369363917
+:italic false}}
+:block/updated-at 1724369369071} 
+{:block/created-at 1724369417496
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "yellow"
+:index 2
+:scale [1 1]
+:scaleLevel "xl"
+:fill "yellow"
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "69016502-60de-11ef-8955-dfaf3c44c0ad"
+:fontWeight 400
+:noFill true
+:point [508.69 319.38]
+:fontSize 48
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "69016500-60de-11ef-8955-dfaf3c44c0ad"}
+:end 
+{:id "end"
+:canBind true
+:point [259.31 128.62]
+:bindingId nil}}
+:decorations 
+{:start nil
+:end "arrow"}
+:parentId "66c7c9b7-85b6-491a-9c9d-a1fa6cbe1ec1"
+:nonce 1724369383953
+:italic false}}
+:block/updated-at 1724369417496})
+:pages (
+{:block/uuid #uuid "66c7c9b7-85b6-491a-9c9d-a1fa6cbe1ec1"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "66c7c9b7-85b6-491a-9c9d-a1fa6cbe1ec1"
+:name "66c7c9b7-85b6-491a-9c9d-a1fa6cbe1ec1"
+:bindings 
+{:69016500-60de-11ef-8955-dfaf3c44c0ad 
+{:id "69016500-60de-11ef-8955-dfaf3c44c0ad"
+:type "line"
+:fromId "69016502-60de-11ef-8955-dfaf3c44c0ad"
+:toId "4f29f250-60de-11ef-8955-dfaf3c44c0ad"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:69016501-60de-11ef-8955-dfaf3c44c0ad 
+{:id "69016501-60de-11ef-8955-dfaf3c44c0ad"
+:type "line"
+:fromId "69016502-60de-11ef-8955-dfaf3c44c0ad"
+:toId "5d7416b0-60de-11ef-8955-dfaf3c44c0ad"
+:handleId "end"
+:point [0.25 0.72]
+:distance 4}}
+:nonce 1
+:assets []
+:shapes-index ("4f29f250-60de-11ef-8955-dfaf3c44c0ad" "5d7416b0-60de-11ef-8955-dfaf3c44c0ad" "69016502-60de-11ef-8955-dfaf3c44c0ad")}}
+:block/updated-at 1724369417533
+:block/created-at 1724369335702
+:block/type "whiteboard"
+:block/name "66c7c9b7-85b6-491a-9c9d-a1fa6cbe1ec1"
+:block/original-name "66c7c9b7-85b6-491a-9c9d-a1fa6cbe1ec1"})}
