@@ -1,0 +1,2 @@
+- [[How to change the contents of a JPanel]]
+- [[How to make a new JFrame window]]

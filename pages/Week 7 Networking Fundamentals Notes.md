@@ -1,0 +1,59 @@
+## Transmission Efficiency (T.E.)
+	- **Total bits in transmission** =
+		- Information bits + Overhead bits
+	- **Transmission efficiency** =
+		- Information bits / Total bits in transmission
+	- **Information bits** =
+		- User data
+	- **Overhead bits**:
+		- Error checking
+		- Marking the start and end if the packets/frames/byte
+		- Control byte
+	- **T.E. of Asynchronous Transmission**
+		- Transmission efficiency = 7/10 or 70%
+		- Overheads - 3/10 or 30% (3 bits extra (start, parity and stop))
+	- **T.E. of SDLC**
+		- 100 information characters * 8 bit ASCII code = 800 information bits + 64 overhead bits (Flag, Address, Control, 32-bit CRC, Flag)
+		- T.E. = 800 / (800+64) = 0.9259 * 100 = 92.6%
+		- 7.4% Overhead
+		- Increasing the packet size increases the efficiency
+		- Retransmission of large (entire) packet is compulsory, if any errors are present
+			- Hence a trade off
+- ## Media Access Control
+	- MAC defines how a station gains access to the medium for data transmission
+	- All nodes access the same common circuit, the access to the medium needs to be controlled by the data link layer (MAC)
+	- MAC refers to the need to control when computers transmit
+	- ### There are Two Types of MAC Methods
+		- **Contention** (CSMA/CD)
+			- Computers wait until the circuit is free and then transmit whenever they have data to send
+			- Contention is commonly used in **Ethernet LAN** (CSMA/CD used in Ethernet)
+			- #### CSMA/CD
+				- Carrier Sense Multiple Access With Collision Detection
+				- This MAC method is used by Ethernet
+				- Each node monitors the medium to see whether a message is being transmitted. If no message is being transmitted, it can begin transmitting
+				- If two or more nodes transmit at the same time a collision occurs. If a collision occurs, a jamming signal is sent, all computers stop transmitting. They wait a random amount of time before re-transmitting
+				- Listen to the circuit, if idle, transmit
+		- **Controlled Access** (Token Passing)
+			- Most earlier computer networks managed by a host mainframe computer use controlled access
+			- In this case, the mainframe controls the circuit and determines which clients can access media at what time
+			- Controlled access is also common in **Token Ring LAN**
+		- ### Token Passing MAC
+			- A short electronic message called a Token (bit pattern) moves around the ring. If a station need to transmit it must have the free token
+			- The receiver gets the message and send an **ACK/NACK** along with the token. When the sender gets thism it releases the token back to the network to be used by others
+			- Token passing limits the number of messages a computer can send so no computer can monopolies the network
+			- #### Problem
+				- A token might get list of the station sending the token crashes. The network will then be down
+			- #### Solution
+				- A computer which is a token monitor if it did not get a token by a certain time, it releases a token to the network (also a backup token monitor)
+			- 4Mbps Token ring (old ones) or 16Mbps Token ring using high quality twisted pair
+		- ### Token Bus
+			- Stations on the bus form a logical ring while having a physical bus topology
+			- A station receiving the token may transmit data and then passes the token to the next station
+- ## Data Link Layer (L2) Protocols
+	- Synchronous transmission
+		- SDLC
+		- HDLC
+	- Ethernet, IEEE 802.3
+	- Token Ring, IEEE 802.5
+	- Serial Line Internet Protocol (SLIP)
+	- Point-to-Point Protocol (PPP)

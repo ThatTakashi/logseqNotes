@@ -1,0 +1,18 @@
+## Object
+	- A concrete manifestation of an abstraction
+	- Something that takes up space in the real or conceptual world and the things you can do with it
+- ## Class
+	- A description of a set of objects that share the same attributes, operations, relationships and semantics
+	- Graphically a class is pictured as a rectangle
+	- Objects of a given class are identical in structure and behaviour but contain different data in their attributes
+	- ### Types of Classes
+		- System or Control class
+			- An abstraction of the system that controls the use case
+		- Interface or Boundary class
+			- A class that passes messages between the controller and the actor
+		- Entity class
+			- A class that stores data
+		- Every activity diagram should generate at least one controller, one interface and several entities classes
+	- ### Class Diagram
+		- Shows the classes of the system
+			- Shows their inter-relationships

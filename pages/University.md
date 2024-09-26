@@ -1,8 +1,11 @@
 ## Classes
 	- [[Advanced Programming]]
+		- [[Code Snippets]]
 	- [[Information Systems]]
 	- [[Database Fundamentals]]
 	- [[Networking Fundamentals]]
+- ### Projects
+	- [[Game Project]]
 - ### Archived Classes
 	- [[Programming Fundamentals]]
 	- [[Hardware Fundamentals]]

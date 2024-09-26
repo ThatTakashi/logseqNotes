@@ -1,0 +1,4 @@
+- The game will take on two different artsyles
+	- An anime style for character portraits
+	- A chibi style for in-game characters
+- Along with these styles the game will also have a modern, simple and colorful UI

@@ -1,0 +1,13 @@
+## Notes
+	- [[Week 1 OS Fundamentals Notes]]
+	- [[Week 2 OS Fundamentals Notes]]
+	- [[Week 3 OS Fundamentals Notes]]
+	- [[Week 4 OS Fundamentals Notes]]
+	- [[Week 5 OS Fundamentals Notes]]
+	- [[Week 6 OS Fundamentals Notes]]
+- ## Topics
+	- [[Boot Process]]
+	- [[Registers vs RAM vs ROM]]
+	- [[System calls]]
+	- [[Threads]]
+	- [[Deadlock]]

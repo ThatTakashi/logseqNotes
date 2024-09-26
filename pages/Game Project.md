@@ -1,0 +1,7 @@
+- [[Gameplay]]
+- [[Story]]
+- [[World]]
+- [[Characters]]
+- [[Artstyle]]
+- [[Game Design Document]]
+- These are the notes for my game development project
